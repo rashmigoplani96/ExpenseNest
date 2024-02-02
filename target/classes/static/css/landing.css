@@ -1,0 +1,52 @@
+body {
+    background: #FED89F;
+}
+
+nav {
+    background-color: #FED89F;
+}
+
+section {
+    background-color: #FED89F;
+}
+
+.btn-orange {
+    background: #F2A530;
+    color: #ffffff;
+}
+
+.btn-white{
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn-sign-in {
+    color: #F2A530;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    bottom: 0;
+}
+
+
+.landing1-right {
+    width: 548px;
+    height: 530px;
+}
+
+
+.s1-textHeader {
+    font-size: 3.5rem;
+}
+
+.s1-textBody {
+    font-size:1rem;
+}

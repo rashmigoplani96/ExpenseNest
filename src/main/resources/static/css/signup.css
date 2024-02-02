@@ -1,0 +1,91 @@
+body {
+    background: #FED89F;
+}
+
+.form {
+     width: 350px;
+     height: 470px;
+     margin: 5% auto;
+     margin-top: -30px;
+}
+
+.form_title {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #CA8826;
+    margin-top: 25px;
+}
+
+.input-group > input {
+    border-left: none;
+    border-color: #CA6B26;
+    background: #FED89F;
+}
+
+.input-group {
+    height: 50px;
+    margin-top: 25px;
+}
+
+.input-group > input:focus {
+    border-left: none;
+    border-color: #CA6B26;
+    background: #FED89F;
+    outline: 0 none;
+    box-shadow: none;
+
+}
+
+.input-group-text {
+    border-right: none;
+    border-color: #CA6B26;
+    background: #FED89F;
+}
+
+.fa, .fa-regular, .fa-solid {
+    color: #CA6B26;
+}
+
+.btn-submit {
+    background: #CA6B26;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.btn-submit:hover {
+    background: #a64d13;
+    color: #FFFFFF;
+}
+
+.login-redirect {
+    text-align: center;
+    color: #CA6B26;
+    padding: 10px;
+}
+
+.login-redirect > div > a {
+    color: #CA6B26;
+    /*text-decoration: none;*/
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    bottom: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    transition: background-color 5000s ease-in-out 0s;
+}
